@@ -77,6 +77,8 @@ Total params: **21.9M** | Trainable (Phase 1): **1.09M**
 - Label smoothing reduced to 0.05
 - `ReduceLROnPlateau` with factor 0.3
 
+<img src="assets/learning_curves.png" alt="Learninig Curves"/>
+
 ### Custom Metric: TumorRecall
 
 A domain-aware metric tracking **average recall across glioma and meningioma** — the two classes where false negatives carry the highest clinical cost. EarlyStopping in Phase 2 monitors this metric rather than generic accuracy.
