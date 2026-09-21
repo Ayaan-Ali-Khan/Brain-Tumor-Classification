@@ -2,7 +2,7 @@
 
 <img src="assets/brain.gif" width="380" alt="Brain MRI scan"/>
 
-# Brain Tumor MRI Classification
+# Brain Tumor MRI Classification using Xception with GradCAM
 
 **Deep learning model to classify brain MRI scans into 4 clinical categories, with Grad-CAM explainability**
 
